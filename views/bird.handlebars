@@ -1,0 +1,20 @@
+<h3>Sightings</h3>
+
+<ul class = "bird-list">
+	{{#each bird}}
+  		{{#each this}}
+  			<li> <span style = "color:#ff5a09">{{this}} </span> X {{@key}}</li>
+		{{/each}}
+	{{/each}}
+</ul>
+
+<div class = "bird-form">
+	<form action = "" method = "POST">
+		<input type = "text" name = "name">
+		<div class = "bird-button"> 
+			<input type = "submit" value = "Add Another Bird">
+		</div>
+	<form>
+</div>
+
+<a href = "/settings">Settings</a>
