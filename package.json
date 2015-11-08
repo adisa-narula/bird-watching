@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-project",
+  "version": "1.0.0",
+  "description": "homework 5",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-002-fall-2015/an1519-homework05.git"
+  },
+  "author": "Adisa Narula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-002-fall-2015/an1519-homework05/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-002-fall-2015/an1519-homework05#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "mongoose": "^4.1.12"
+  }
+}
